@@ -1,0 +1,50 @@
+<!doctype html>
+	<head>
+		<title>Registration</title>
+	</head>
+	<body>
+		
+		<form method="get" action="profile.html" autocomplete="off">
+		<table border=0 bgcolor=yellow>
+			<tr>
+				<td colspan=4 align=center><h1>Registration Form</h1></td>
+			</tr>
+			<tr>
+			<td colspan=2><label>Username :</label></td>
+			<td colspan=2><input type=text name=uname placeholder="Enter username" /></td>
+			</tr>
+			<tr>
+			<td colspan=2><label>Password :</label></td>
+			<td colspan=2><input type=password name=pass placeholder="Enter password"/></td>
+			</tr>
+			<tr>
+			<td colspan=2><label>Gender :</label></td>
+			<td><input type=radio name=gender value="m"/>Male</td>
+			<td><input type=radio name=gender value="f" /> Female</td>
+			</tr>
+			<tr>
+			<td colspan=2><label>Hobbies :</label></td>
+			<td><input type=checkbox name=hobbies value="r"/>Reading</td>
+			<td><input type=checkbox name=hobbies value="s" /> Singing</td>
+			<td><input type=checkbox name=hobbies value="d" /> Dancing</td>
+			</tr>
+			<tr>
+			<td colspan=2><label>Class :</label></td>
+			<td colspan=2>
+				<select name=class>
+				<option value=btit>B.Tech IT </option>
+				<option value=btcs>B.Tech CS </option>
+				<option value=btee>B.Tech EE </option>
+			</select></td>
+			</tr>
+			<tr>
+			<td colspan=2><label>Comment :</label></td>
+			<td colspan=2><textarea name=comments rows=5 cols=50>Any Comments....</textarea></td>
+			</tr>
+			<tr>
+			<td colspan=2><input type=reset value="Reset" /></td>
+			<td colspan=2><input type=submit value="Register" />
+			</tr>
+	</form>
+	</body>
+</html>
