@@ -1,0 +1,109 @@
+<html>
+	<head>
+		<title>Feedback Page</title>
+	</head>
+	<body bgcolor="White">
+		<h1>Product Feedback Form</h1>
+		<h3><font color="Grey">We appreciate your feedback!</font></h3>
+		<hr/>
+		<form>
+		<table border=0>
+			<tr>
+				<td colspan=3><label><b>Name/Surname</b></label></td>
+				
+			</tr>
+			<tr>
+				<td><input type=text name=fname placeholder="First Name" size=30/></td>
+				<td colspan=2><input type=text name=lname placeholder="Last Name" size=30 /></td>
+			</tr>
+			<tr>
+				<td colspan=3><label><b>Phone Number</b></label></td>
+				
+			</tr>
+			<tr>
+				<td colspan=3><input type=text name=num placeholder="Enter your phone number" min=10 max=10 size=40/></td>
+			</tr>
+			<tr>
+				<td colspan=3><label><b>Email</b></label></td>
+			</tr>
+			<tr>
+				<td colspan=3><input type=email name=mailId placeholder="abc@gmail.com" size=40/></td>
+			</tr>
+			<tr>
+				<td colspan=3><label>Country</label></td>
+			</tr>
+			<tr>
+				<td colspan=3><select name=Country>
+				<option value=I>India</option>
+				<option value=F>France</option>
+				<option value=G>Germany</option>
+				<option value=A>Australia</option>
+				<option value=B>Bangladesh</option>
+				<option value=C>China</option>
+				<option value=T>Tibet</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td colspan=3><label><b>From where you came to know about this product?<b></label></td>
+			</tr>
+			<tr>
+				<td colspan=3><input type=checkbox name=place values="g"/>Google</td>
+			</tr>
+			
+			<tr>
+				<td colspan=3><input type=checkbox name=place values="A"/>Advertisement</td>
+			</tr>
+			<tr>
+				<td colspan=3><input type=checkbox name=place values="A"/>Colleagues</td>
+			</tr>
+			<tr>
+				<td colspan=3><label><b>How satisfied were you when you used our product for the first time?</b></label></td>
+			</tr>
+			<tr>
+				<td colspan=3><input type=radio name=rating value="VS"/> Very Satisfied</td>
+			</tr>
+
+			<tr>
+				<td colspan=3><input type=radio name=rating value="S"/> Satisfied</td>
+			</tr>
+			<tr>
+				<td colspan=3><input type=radio name=rating value="N"/> Neutral</td>
+			</tr>
+			<tr>
+				
+				<td colspan=3><input type=radio name=rating value="D"/> Dissatisfied</td>
+			</tr>
+			
+			<tr>
+				
+				<td colspan=3><input type=radio name=rating value="VD"/> Very Dissatisfied</td>
+			</tr>
+			<tr>
+				<td colspan=3><label><b>How do you rate your overall experience?</b></label></td>
+			</tr>
+			<tr>
+				<td><input type=radio name=choice value="Good"/> Good</td>
+				
+				<td><input type=radio name=choice value="Average"/> Average</td>
+				
+				<td><input type=radio name=choice value="Bad"/> Bad</td>
+			</tr>
+
+			<tr>
+				
+				<td colspan=3><label><b>Do you have any suggestions to improve our product and services?</b></label></td>
+			</tr>
+			<tr>
+				<td colspan=3><textArea name=comment rows=5 cols=50></textArea></td>
+			</tr>
+			
+			<tr>
+				<td  align=left><input type=Reset value="Reset" /></td>
+				<td colspan=2 align=left><input type=submit value="Submit" /></td>
+			</tr>
+			
+			
+		</table>
+		</form>
+	</body>
+</html>
